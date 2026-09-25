@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTheme } from '../context/ThemeContext';
-import styles from './Navbar.module.css';
+import styles from '../styles/Navbar.module.css';
 import { DARK_THEME, LIGHT_THEME } from '../constants/theme';
 
 
