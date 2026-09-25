@@ -5,6 +5,12 @@
   padding: 10px 20px;
   background-color: #1E90FF;
   color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbarDark {
+  background-color: #85D1B0;
+  color: #242629;
 }
 
 .brand {

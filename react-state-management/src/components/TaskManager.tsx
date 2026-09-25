@@ -2,7 +2,7 @@ import React,{useReducer,useState} from 'react';
 import { taskReducer } from '../reducers/taskReducer';
 import { useTheme } from '../context/ThemeContext';
 import { LIGHT_THEME } from '../constants/theme';
-import styles from './TaskManager.module.css';
+import styles from '../styles/TaskManager.module.css';
 
 
 const TaskManager = ()=>{

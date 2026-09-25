@@ -9,7 +9,7 @@ const NavBar = ()=>{
 
     return (
 
-        <nav className={styles.navbar}>
+        <nav className={`${styles.navbar} ${theme === LIGHT_THEME ? '' : styles.navbarDark}`}>
             <span className={styles.brand}>React App</span>
             <button className={styles.toggleButton} onClick={toggleTheme}> Switch to {theme===LIGHT_THEME?DARK_THEME:LIGHT_THEME} mode </button>
         </nav>
